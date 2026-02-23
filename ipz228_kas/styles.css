@@ -19,14 +19,22 @@ header, footer {
 
 footer {
     margin-top: 20px;
-    border-bottom: none;
     border-top: 1px solid #ccc;
 }
 
 .news-item {
-    margin: 20px 0;
-    padding-bottom: 10px;
+    margin: 30px 0;
+    padding-bottom: 20px;
     border-bottom: 1px dashed #eee;
+}
+
+/* Simple image sizing */
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4px;
 }
 
 h3 {
